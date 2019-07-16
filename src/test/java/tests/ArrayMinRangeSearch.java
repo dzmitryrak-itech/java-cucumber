@@ -7,6 +7,14 @@ import static org.testng.Assert.assertEquals;
 
 public class ArrayMinRangeSearch {
 
+    /**
+     * There is an array with prices per day
+     * Need to find max falling for N days (range param)
+     * 
+     * @param pricesPerDay
+     * @param range
+     * @return
+     */
     public int findMaxFalling(int[] pricesPerDay, int range) {
         int lengthOfArray = pricesPerDay.length;
         int maxFall = 0;
